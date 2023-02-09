@@ -1,7 +1,7 @@
 {
   "project_name": "Python Best Practices with Poetry",
   "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "author": "{{ cookiecutter.author }}",
-  "author_email": "{{ cookiecutter.author_email }}",
-  "description": "{{ cookiecutter.description }}"
+  "author": "Anonymous",
+  "author_email": "anonymous@email.email",
+  "description": "Project description"
 }
