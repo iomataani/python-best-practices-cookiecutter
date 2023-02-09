@@ -47,3 +47,9 @@ repos:
     entry: poetry run pytest --cov --cov-fail-under=100
     types: [python]
     pass_filenames: false
+- repo: https://github.com/commitizen-tools/commitizen
+  rev: master
+  hooks:
+    - id: commitizen
+    - id: commitizen-branch
+      stages: [push]

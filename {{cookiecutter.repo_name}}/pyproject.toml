@@ -18,6 +18,7 @@ pytest = "^7.2.1"
 pre-commit = "^3.0.4"
 pytest-cov = "^4.0.0"
 flake8-pyproject = "^1.2.2"
+commitizen = "^2.41.0"
 
 [tool.isort]
 profile = black
