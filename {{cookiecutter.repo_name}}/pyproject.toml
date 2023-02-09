@@ -17,11 +17,10 @@ flake8 = "^6.0.0"
 pytest = "^7.2.1"
 pre-commit = "^3.0.4"
 pytest-cov = "^4.0.0"
-boto3 = "^1.26.65"
 flake8-pyproject = "^1.2.2"
 
 [tool.isort]
-profile = "black"
+profile = black
 multi_line_output = 3
 include_trailing_comma = true
 force_grid_wrap = 0

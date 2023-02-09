@@ -22,7 +22,7 @@ python3 -m pipx ensurepath
 pipx install poetry
 
 # Use cookiecutter to create project from this template
-pipx run cookiecutter gh:iomataani/python-best-practices-cookiecutter
+pipx run cookiecutter gh:iomataani/python-best-practices-cookiecutter --checkout poetry
 
 # Enter project directory
 cd <repo_name>
